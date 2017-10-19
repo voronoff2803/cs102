@@ -129,20 +129,20 @@ def check_solution(solution):
     for x in range(9):
         for y in range(9):
             pos = (x, y)
-            suma = 0
+            amount = 0
             for i in get_row(solution, pos):
-                suma += int(i)
-            if not suma == 45:
+                amount += int(i)
+            if not amount == 45:
                 isRight = False
-            suma = 0
+            amount = 0
             for i in get_col(solution, pos):
-                suma += int(i)
-            if not suma == 45:
+                amount += int(i)
+            if not amount == 45:
                 isRight = False
-            suma = 0
+            amount = 0
             for i in get_block(solution, pos):
-                suma += int(i)
-            if not suma == 45:
+                amount += int(i)
+            if not amount == 45:
                 isRight = False
     return isRight
 

@@ -80,5 +80,5 @@ class GameOfLife:
 
 
 if __name__ == '__main__':
-    game = GameOfLife(600, 300, 30)
+    game = GameOfLife(600, 600, 10)
     game.run()

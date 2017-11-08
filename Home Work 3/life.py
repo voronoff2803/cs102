@@ -53,13 +53,15 @@ class GameOfLife:
         for i in range(len(rects)):
             for j in range(len(rects[i])):
                 if rects[i][j] == 1:
-                    pygame.draw.rect(self.screen, pygame.Color('gray'), (self.cell_size * j, self.cell_size * i, self.cell_size, self.cell_size))
+                    pygame.draw.rect(self.screen, pygame.Color('gray'),
+                                     (self.cell_size * j, self.cell_size * i, self.cell_size, self.cell_size))
                 elif rects[i][j] == 0:
-                    pygame.draw.rect(self.screen, pygame.Color('white'), (self.cell_size * j, self.cell_size * i, self.cell_size, self.cell_size))
+                    pygame.draw.rect(self.screen, pygame.Color('white'),
+                                     (self.cell_size * j, self.cell_size * i, self.cell_size, self.cell_size))
 
     def get_neighbours(self, cell):
         return [self.clist[i + cell[0]][j + cell[1]] for i in range(-1, 2) for j in range(-1, 2) if (i | j) and
-                      0 <= cell[0] + i < self.cell_height and 0 <= cell[1] + j < self.cell_width]
+                0 <= cell[0] + i < self.cell_height and 0 <= cell[1] + j < self.cell_width]
 
     def update_cell_list(self, cell_list):
         new_list = deepcopy(cell_list)

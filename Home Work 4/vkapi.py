@@ -4,36 +4,6 @@ import webbrowser
 import argparse
 
 
-def get_access_token(client_id, scope):
-    assert isinstance(client_id, int), 'clinet_id must be positive integer'
-    assert isinstance(scope, str), 'scope must be string'
-    assert client_id > 0, 'clinet_id must be positive integer'
-    url = """\
-    https://oauth.vk.com/authorize?client_id={client_id}&\
-    redirect_uri=https://oauth.vk.com/blank.hmtl&\
-    scope={scope}&\
-    &response_type=token&\
-    display=page\
-    """.replace(" ", "").format(client_id=client_id, scope=scope)
-    webbrowser.open_new_tab(url)
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("client_id", help="Application Id", type=int)
-    parser.add_argument("-s",
-                        dest="scope",
-                        help="Permissions bit mask",
-                        type=str,
-                        default="",
-                        required=False)
-    args = parser.parse_args()
-    get_access_token(args.client_id, args.scope)
-
-
-access_token = get_access_token(199785621, "messages")
-print(access_token)
-
 def GetAge(bdate):
     if '.' not in bdate[len(bdate)-4:] and len(bdate) > 4:
         return bdate[len(bdate)-4:]
@@ -45,7 +15,7 @@ def get_friends(user_id, fields = "id"):
     assert isinstance(fields, str), "fields must be string"
     assert user_id > 0, "user_id must be positive integer"
     domain = "https://api.vk.com/method"
-    access_token = 'a5c77183a5c77183a5c771831fa5998833aa5c7a5c77183fc211e505179f0d569aa23b5'
+    access_token = '70ee2e1ff976d05511ef99d959a8be668e44b8ec314a18cf87ed6067012572e7d3046e094a87615ebf0b8'
     user_id = user_id
 
     query_params = {
@@ -96,7 +66,7 @@ def messages_get_history(user_id, offset=0, count=20):
     assert offset >= 0, "user_id must be positive integer"
     assert count >= 0, "user_id must be positive integer"
     domain = "https://api.vk.com/method"
-    access_token = 'a5c77183a5c77183a5c771831fa5998833aa5c7a5c77183fc211e505179f0d569aa23b5'
+    access_token = '70ee2e1ff976d05511ef99d959a8be668e44b8ec314a18cf87ed6067012572e7d3046e094a87615ebf0b8'
     user_id = user_id
 
     query_params = {
@@ -114,7 +84,6 @@ def messages_get_history(user_id, offset=0, count=20):
 
 
 
-
-print(age_predict(57899071))
+print(age_predict(138091639))
 history = messages_get_history(394481525, 0, 3)
 pp(history)

@@ -2,6 +2,13 @@ import requests
 from pprint import pprint as pp
 import webbrowser
 import argparse
+from datetime import datetime
+import plotly
+import plotly.plotly as py
+import plotly.graph_objs as go
+import time
+
+plotly.tools.set_credentials_file(username='voronoff2803', api_key='2CqqTTtIebNiQ2U61Wnx')
 
 
 def GetAge(bdate):
@@ -83,7 +90,36 @@ def messages_get_history(user_id, offset=0, count=20):
     return response.json()
 
 
+def count_dates_from_dates(messages): # Функция для сбора статистики с более 200 сообщений
+    dates = []
+    numbers = []
+    count = 1
+    for i in range(len(messages)-1):
+        if (datetime.fromtimestamp(messages[i]).strftime("%Y-%m-%d") ==
+                datetime.fromtimestamp(messages[i + 1]).strftime("%Y-%m-%d")):
+            count += 1
+        else:
+            dates.append (datetime.fromtimestamp(messages[i]).strftime("%Y-%m-%d"))
+            numbers.append(count)
+            count = 1
+    return dates, numbers
 
-print(age_predict(138091639))
-history = messages_get_history(394481525, 0, 3)
-pp(history)
+
+def get_many_dates(user_id, offset):
+    count = messages_get_history(user_id, 0, 1)['response']['count']
+    dates = []
+    for x in range((count - offset) // 200):
+        print('скачанно: ',x*200,'/',count)
+        time.sleep(2)
+        messages = messages_get_history(user_id, offset + 200 * x, 200)
+        for i in range(200):
+            dates.append(messages['response']['items'][i]['date'])
+    return (dates)
+
+
+dates = get_many_dates(144792435, 0)
+
+list = count_dates_from_dates(dates)
+#pp (len(dates))
+data = [go.Scatter(x=list[0],y=list[1])]
+py.iplot(data)

@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Расписание занятий Университета ИТМО</title>
+	<meta name="description" content="Расписание занятий Университета ИТМО группа K3140">
+	<meta name="keywords" content="Расписание, Занятия, Университет ИТМО, Санкт-Петербург, Россия, ЛИТМО, НИУ ИТМО, группа K3140 Расписание занятий Университета ИТМО">
+	<meta name="author" content="ITMO University">
+	<meta name="coder" content="Andrey Kurkin">
+	<meta name="designer" content="Alexander Rusak">
+	<meta name="category" content="Образование" />
+	<meta name="publisher" content="www.ifmo.ru">
+	<meta name="revisit" content="10 days">
+	<meta name="robots" content="all">
+	<META NAME="RESOURCE-TYPE" CONTENT="DOCUMENT">
+	<META NAME="DISTRIBUTION" CONTENT="GLOBAL">
+	<META NAME="COPYRIGHT" CONTENT="Copyright (c) 1993-2017 by www.ifmo.ru">
+	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+	<META NAME="REVISIT-AFTER" CONTENT="10 DAYS">
+	<META NAME="RATING" CONTENT="GENERAL">
+	<link rel="canonical" href="http://www.ifmo.ru/ru/schedule/raspisanie_zanyatiy.htm" />
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Расписание занятий Университета ИТМО">
+	<meta property="og:description" content="Расписание занятий Университета ИТМО группа K3140">
+	<meta property="og:image" content="http://www.ifmo.ru/images/logo.jpg">
+	<meta property="og:url" content="http://www.ifmo.ru/ru/schedule/raspisanie_zanyatiy.htm">
+	<meta property="og:site_name" content="Университет ИТМО официальный портал">
+	<meta property="twitter:card" content="summary">
+	<meta property="twitter:title" content="Расписание занятий Университета ИТМО">
+	<meta property="twitter:description" content="Расписание занятий Университета ИТМО группа K3140">
+	<meta property="twitter:image" content="http://www.ifmo.ru/images/logo.jpg">
+	<meta property="twitter:url" content="http://www.ifmo.ru/ru/schedule/raspisanie_zanyatiy.htm">
+	<meta property="twitter:app:name:iphone" content="Университет ИТМО">
+	<meta property="twitter:app:id:iphone" content="785327058">
+	<meta property="twitter:app:name:googleplay" content="Университет ИТМО">
+	<meta property="twitter:app:id:googleplay" content="ru.ifmo.main">
+	<meta property="al:ios:app_name" content="Университет ИТМО">
+	<meta property="al:ios:app_store_id" content="785327058">
+	<meta property="al:android:package" content="ru.ifmo.main">
+	<meta property="al:android:app_name" content="Университет ИТМО">
+    <meta name="msapplication-TileColor" content="#0047BA">
+    <meta name="msapplication-TileImage" content="/pic/speeddials/tile_icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/pic/favicon.ico">
+    <link rel="apple-touch-icon" href="/pic/speeddials/apple_touch.png">
+    <link rel="image_src" href="/pic/speeddials/opera_speeddial.png">
+
+    <meta name="yandex-verification" content="7ba2cabe9fd23960">
+    <meta name="wmail-verification" content="f852b3d6f412b9d2">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="apple-itunes-app" content="app-id=785327058">
+    <meta name="google-play-app" content="app-id=ru.ifmo.main">
+	
+	<link rel="alternate" type="application/rss+xml" title="Новости Университета ИТМО" href="http://www.ifmo.ru/module/rss.php">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+-->
+    <link rel="stylesheet" href="/css/main.min.css?ver=207" id="mainCSS" type="text/css">
+
+
+</head>
+<body class="">
+
+<section class="b-header-pad" role="presentation"></section>
+<a class="sr-only sr-only-focusable" href="#mainContent">Перейти к содержимому страницы.</a>
+<header class="h-sticky-header hidden-md hidden-lg" role="banner">
+
+	<div class="cd-overlay-nav"><span></span></div>
+	<div class="cd-overlay-content"><span></span></div>
+	
+	<div class="container">
+		<h2 class="row header-logo-sm">
+			<a href="/ru/" title="Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики">
+				<div class="header-logo-sm__logo"></div>
+			</a>
+		</h2>
+	</div>
+	<a class="cd-nav-trigger">Меню<span class="cd-icon"></span></a>
+</header>
+
+
+<header class="h-header">
+	<div class="cd-primary-nav">
+	
+		<nav class="navbar supportMenu supportMenu--accessiblilitySettings">
+			<div class="container">
+				<div class="row">
+					<div class="rowFlex rowFlex--end">
+						<form class="navbar-form">
+							<label for="">Размер шрифта:&nbsp;</label>
+							<div class="btn-group btn-group-sm" data-toggle="buttons">
+								<label class="btn btn-default accessibleSize--M">
+									<input type="radio" name="accessibleSize" id="accessibleSize_M" autocomplete="off">A
+								</label>
+								<label class="btn btn-default accessibleSize--L">
+									<input type="radio" name="accessibleSize" id="accessibleSize_L" autocomplete="off">A
+								</label>
+								<label class="btn btn-default accessibleSize--XL">
+									<input type="radio" name="accessibleSize" id="accessibleSize_XL" autocomplete="off">A
+								</label>
+							</div>
+						</form>
+						<form class="navbar-form">
+							<label for="">Цвет сайта:&nbsp;</label>
+							<div class="btn-group btn-group-sm" data-toggle="buttons">
+								<label class="btn btn-default accessibleColor--bw" for="accessibleColor_bw">
+									<input type="radio" name="accessibleColor" id="accessibleColor_bw" autocomplete="off"><span>Ц</span>
+								</label>
+								<label class="btn btn-default accessibleColor--wb" for="accessibleColor_wb">
+									<input type="radio" name="accessibleColor" id="accessibleColor_wb" autocomplete="off"><span>Ц</span>
+								</label>
+							</div>
+						</form>
+						<form class="navbar-form">
+							<label for="">Изображения:&nbsp;</label>
+							<button type="button" itemprop="Copy" id="accessibleImg_toggle" class="btn btn-default btn-sm active" data-toggle="button" data-off-text="Выключены" data-on-text="Включены" aria-pressed="true" autocomplete="off">
+								Включены
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<nav class="navbar supportMenu">
+			<div class="container">
+				<div class="row">
+					<div class="rowFlex rowFlex--end">
+						<ul class="nav navbar-nav">
+							<li class="accessible-button">
+								<a id="accessibleButton" href="#" title="Версия для слабовидящих">
+									<svg class="icon">
+										<use xlink:href="#icon-visible"></use>
+									</svg>
+									<span>Версия для слабовидящих</span>
+								</a>
+							</li>
+							<li class="separate-button active">
+								<a href="/ru/"><img class="b-top-menu__flag" src="/images/flags2/Russia.png" alt="RU">Русский</a>
+							</li>
+							<li>
+								<a href="http://en.ifmo.ru/" target="_blank"><img src="/images/flags2/United-Kingdom.png" alt="En" class="b-top-menu__flag">English</a>
+							</li>
+							<li>
+								<a href="http://cn.ifmo.ru/" target="_blank"><img src="/images/flags2/China.png" alt="Cn" class="b-top-menu__flag">中文版</a>
+							</li>
+							<li class="separate-button">
+								<a></a>
+							</li>
+						</ul>
+						<form action="/ru/searchform/poisk_po_portalu.htm"
+							  method="POST"
+							  enctype="application/x-www-form-urlencoded"
+							  class="navbar-form search-panel"
+							  role="search">
+							<div class="input-group input-group-sm">
+								<svg class="icon icon--search">
+									<use xlink:href="#icon-search"></use>
+								</svg>
+								<input type="text"
+									   name="searchTextBox"
+									   id="searchTextBox"
+									   class="form-control"
+									   placeholder="Поиск по сайту">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit">Найти</button>
+								</span>
+							</div>
+						</form>					
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<nav class="navbar b-top-menu">
+			<div class="container">
+				<div class="row">
+					<p class="col-lg-3 navbar-text visible-lg-block">15 Ноября 2017 г. 12 <strong>Четная</strong> нед.</p>
+					<div class="col-xs-12 col-sm-6 col-md-12 col-lg-9 nav-wrap">
+						<ul class="nav nav-justified">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Абитуриентам
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="https://abit.ifmo.ru/" target="_blank">Поступление 2018</a></li>
+								<li><a href="https://abit.ifmo.ru/page/50/" target="_blank">День открытых дверей</a></li>
+								<li><a href="https://abit.ifmo.ru/page/59/" target="_blank">Олимпиады школьников</a></li>
+								<li><a href="https://abit.ifmo.ru/page/11/" target="_blank">Довузовская подготовка</a></li>
+								<li><a href="https://pk.ifmo.ru/" target="_blank">Подготовительные курсы</a></li>
+								<li><a href="https://abit.ifmo.ru/bachelor/" target="_blank">Прием на 1 курс</a></li>
+								<li><a href="https://abit.ifmo.ru/master/" target="_blank">Прием в магистратуру</a></li>
+								<li><a href="http://int.ifmo.ru/ru/page/1/obuchenie_dlya_inostrancev.htm" target="_blank">Прием иностранных граждан</a></li>
+								<li><a href="https://abit.ifmo.ru/news_feed/1/" target="_blank">Объявления</a></li>
+								<li><a href="/ru/page/255/mify_i_legendy.htm">Мифы и легенды</a></li>
+								<li><a href="/ru/post/abiturient/zadat_vopros.htm">Задать вопрос</a></li>
+								<li><a href="https://abit.ifmo.ru/page/81/" target="_blank">Контакты приемной комиссии</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Студентам
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/ru/page/252/pervokursnikam.htm">Первокурсникам</a></li>
+								<li><a href="http://lib.ifmo.ru/" target="_blank">Библиотека</a></li>
+								<li><a href="/ru/exam/raspisanie_sessii.htm">Расписание сессии</a></li>
+								<li><a href="/ru/schedule/raspisanie_zanyatiy.htm">Расписание занятий</a></li>
+								<li><a href="/ru/schedule_lang/raspisanie_zanyatiy_po_inostrannomu_yazyku.htm">Расписание занятий по иностранному языку</a></li>
+								<li><a href="http://de.ifmo.ru/" target="_blank">Центр дистанционного обучения</a></li>
+								<li><a href="http://clinic.ifmo.ru/" target="_blank">Медпункт</a></li>
+								<li><a href="http://edu.ifmo.ru/ru/pages/31/stipendii_i_inye_vidy_materialnoy_podderzhki.htm" target="_blank">Стипендии </a></li>
+								<li><a href="http://student.ifmo.ru/" target="_blank">Совет обучающихся</a></li>
+								<li><a href="http://int.ifmo.ru/ru/page/1/obuchenie_dlya_inostrancev.htm" target="_blank">Иностранному студенту</a></li>
+								<li><a href="/ru/page/311/center_soprovojdeniya_inkluzivnogo_obrazovaniya.htmcentr_soprovozhdeniya_inklyuzivnogo_obrazovaniya.htm">Центр сопровождения инклюзивного образования</a></li>
+								<li><a href="http://careers.ifmo.ru/" target="_blank">Трудоустройство</a></li>
+								<li><a href="https://isu.ifmo.ru/" target="_blank">Вход в корпоративный портал / ИСУ</a></li>
+								<li><a href="/ru/post/student/zadat_vopros.htm">Задать вопрос</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Аспирантам
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="http://aspirantura.ifmo.ru/" target="_blank">Сайт аспирантуры</a></li>
+								<li><a href="http://aspirantura.ifmo.ru/?main=3" target="_blank">Поступление</a></li>
+								<li><a href="http://aspirantura.ifmo.ru/?main=44" target="_blank">Международные программы</a></li>
+								<li><a href="http://aspirantura.ifmo.ru/?main=24" target="_blank">Стипендии</a></li>
+								<li><a href="http://fppo.ifmo.ru/?page1=16 " target="_blank">Диссертационные советы</a></li>
+								<li><a href="http://aspirantura.ifmo.ru/?main=31" target="_blank">Конференции</a></li>
+								<li><a href="http://lib.ifmo.ru/" target="_blank">Библиотека</a></li>
+								<li><a href="/ru/page/146/nauchnye_izdaniya.htm">Научные издания</a></li>
+								<li><a href="https://isu.ifmo.ru/" target="_blank">Вход в корпоративный портал / ИСУ</a></li>
+								<li><a href="/ru/post/phd/zadat_vopros.htm">Задать вопрос</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Выпускникам
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="http://alumni.ifmo.ru/" target="_blank">Ассоциация выпускников</a></li>
+								<li><a href="http://club.ifmo.ru/" target="_blank">Клуб Выпускников</a></li>
+								<li><a href="http://museum.ifmo.ru/" target="_blank">Музейный комплекс</a></li>
+								<li><a href="/ru/3d/3D-tury.htm">3D-туры</a></li>
+								<li><a href="http://careers.ifmo.ru/" target="_blank">Трудоустройство</a></li>
+								<li><a href="/ru/post/alumni/zadat_vopros.htm">Задать вопрос</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Сотрудникам
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="https://isu.ifmo.ru/" target="_blank">Вход в корпоративный портал / ИСУ</a></li>
+								<li><a href="/ru/schedule/raspisanie_zanyatiy.htm">Расписание занятий</a></li>
+								<li><a href="/ru/viewunit/89017/profkom.htm">Профком</a></li>
+								<li><a href="http://lib.ifmo.ru/" target="_blank">Библиотека</a></li>
+								<li><a href="/ru/post/emploer/zadat_vopros.htm">Задать вопрос</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Партнерам
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/ru/mnllist/mezhdunarodnye_nauchnye_podrazdeleniya.htm">Международные научные подразделения</a></li>
+								<li><a href="/ru/page/148/vuzy-partnery.htm">Вузы-партнеры</a></li>
+								<li><a href="/ru/post/partner/zadat_vopros.htm">Задать вопрос</a></li>
+							</ul>
+						</li>
+							<li class="separate-button">
+								<a href="https://isu.ifmo.ru/" target="_blank" title="Корпоративный портал ИСУ"><span class="hidden-md hidden-lg">Корпоративный портал </span>ИСУ</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="col-xs-12 col-sm-6 b-menu-main-sm">
+						<ul class="nav">
+				<li>
+					<a class="" href="/ru/page/144/universitet.htm">Университет</a>
+				</li>
+				<li>
+					<a class="" href="/ru/page/171/razvitie.htm">Развитие</a>
+				</li>
+				<li>
+					<a class="" href="/ru/page/169/obrazovanie.htm">Образование</a>
+				</li>
+				<li>
+					<a class="" href="/ru/page/157/nauka.htm">Наука</a>
+				</li>
+				<li>
+					<a class="" href="/ru/page/170/mezhdunarodnaya_deyatelnost.htm">Международная деятельность</a>
+				</li>
+				<li>
+					<a class="" href="/ru/page/173/studencheskaya_zhizn.htm">Студенческая жизнь</a>
+				</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav> <!-- /b-top-menu -->
+		
+	</div> <!-- /cd-primary-nav -->
+	
+	<div class="container">
+		<div class="row hidden-sm hidden-xs" role="banner">
+			<h2 class="col-md-4 l-header-logo">
+				<a class="l-header-logo__link" href="/ru/" title="Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики">
+					<span class="l-header-logo__img"></span>
+				</a>
+			</h2>
+			<div class="col-md-8 l-header-title">
+				<h3 class="sub-head">федеральное государственное автономное образовательное учреждение высшего образования</h3>
+				<h2 class="first-string">Санкт-Петербургский национальный исследовательский университет</h2>
+				<h1 class="second-string">информационных технологий, механики и оптики</h1>
+			</div>
+		</div>
+		<div class="row">
+			<nav class="navbar hidden-sm hidden-xs b-menu-main">
+				<ul class="nav nav-justified">
+				<li class="root">
+					<a href="/ru/page/144/universitet.htm">Университет</a>
+					<div class="main-drop-menu" role="menu">
+  					    <div class="row">
+								<div class="col-xs-4">
+									<h4>
+										<a href="/ru/page/207/ob_universitete.htm" style="color:#000;">
+											Об университете
+										</a>
+									</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/page/208/privetstvie_rektora.htm">
+												Приветствие ректора
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/209/missiya_i_cennosti.htm">
+												Миссия и ценности
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/210/godovye_otchety_i_prezentacii.htm">
+												Годовые отчеты и презентации
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/256/video.htm">
+												Видео
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/211/istoriya.htm">
+												История
+											</a>
+										</li>
+										<li>
+											<h5>
+												Музеи
+											</h5>
+											<ul class="list-unstyled">
+												<li><a href="http://museum.ifmo.ru/" target="_blank">Виртуальный музей</a></li>
+												<li><a href="http://optimus.ifmo.ru/" target="_blank">Музей оптики</a></li>
+											</ul>
+										</li>
+									</ul>
+									<h4>
+											Органы управления
+									</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/nabsovetlist/nablyudatelnyy_sovet.htm">
+												Наблюдательный совет
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/249/mezhdunarodnyy_sovet.htm">
+												Международный совет
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/214/uchenyy_sovet.htm">
+												Ученый совет
+											</a>
+										</li>
+										<li>
+											<a href="/ru/personlist/administration/rektorat.htm">
+												Ректорат
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xs-4">
+									<h4>
+										<a href="/ru/department_units/obschaya_struktura_universiteta.htm" style="color:#000;">
+											Общая структура университета
+										</a>
+									</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/department_units/1/megafakultety,_fakultety,_kafedry.htm">
+												Мегафакультеты, факультеты, кафедры
+											</a>
+										</li>
+										<li>
+											<a href="/ru/department_units/2/nauchno-issledovatelskie_podrazdeleniya.htm">
+												Научно-исследовательские подразделения
+											</a>
+										</li>
+										<li>
+											<a href="/ru/department_units/3/administrativnye_podrazdeleniya.htm">
+												Административные подразделения
+											</a>
+										</li>
+									</ul>
+									<h4>
+										<a href="/ru/personlist/personalii_a-ya.htm" style="color:#000;">
+											Персоналии (А-Я)
+										</a>
+									</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/doktorlist/pochetnye_doktora_universiteta.htm">
+												Почетные доктора университета
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/212/znak_za_zaslugi_pered_universitetom.htm">
+												Знак «За заслуги перед университетом»
+											</a>
+										</li>
+									</ul>
+									<h4>
+											Официальные документы
+									</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/sveden/svedeniya_ob_obrazovatelnoy_organizacii.htm">
+												Сведения об образовательной организации
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/217/licenziya_i_akkreditaciya.htm">
+												Лицензия и аккредитация
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/220/ustav.htm">
+												Устав
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/329/requisites.htmrekvizity.htm">
+												Реквизиты
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xs-4">
+									<h4>
+										<a href="/ru/page/237/press-sluzhba.htm" style="color:#000;">
+											Пресс-служба
+										</a>
+									</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/newslist/novostnoy_sayt_ITMO.NEWS.htm">
+												Новостной сайт ITMO.NEWS
+											</a>
+										</li>
+										<li>
+											<a href="http://news.ifmo.ru/ru/events/meropriyatiya.htm">
+												Мероприятия
+											</a>
+										</li>
+										<li>
+											<a href="http://news.ifmo.ru/ru/massmedia/publikacii_v_smi.htm">
+												Публикации в СМИ
+											</a>
+										</li>
+										<li>
+											<a href="http://news.ifmo.ru/ru/media/" target="_blank">
+												Медиа
+											</a>
+										</li>
+									</ul>
+									<h4>
+										<a href="/ru/page/213/logotipy_i_firmennyy_stil.htm" style="color:#000;">
+											Логотипы и фирменный стиль
+										</a>
+									</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/go.php?url=http://itmostore.ru/" target="_blank">
+												Магазин ITMO.STORE
+											</a>
+										</li>
+									</ul>
+									<h4>
+											Контакты
+									</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/phonebook/telefonnyy_spravochnik.htm">
+												Телефонный справочник
+											</a>
+										</li>
+										<li>
+											<a href="/ru/map/1/karta_korpusov.htm">
+												Карта корпусов
+											</a>
+										</li>
+										<li>
+											<a href="/ru/post/zadat_vopros.htm">
+												Задать вопрос
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+					</div>
+				</li>
+				<li class="root">
+					<a href="/ru/page/171/razvitie.htm">Развитие</a>
+					<div class="main-drop-menu" role="menu">
+						<h4><a href="/ru/page/172/razvitie_universiteta.htm"><img class="main-drop-menu__logo" src="/images/menu/small/p10.jpg" alt="Развитие университета"></a>Развитие университета</h4>
+						<p class="main-drop-menu__url"><a href="/ru/page/172/razvitie_universiteta.htm">Подробнее</a></p>
+						<div class="row">
+							<br>
+							<div class="col-xs-6">
+								<h4>
+										Стратегия развития
+								</h4>
+								<ul class="list-unstyled">
+									<li><a href="/ru/page/159/strategiya_2034.htm">Стратегия 2034</a></li>
+									<li><a href="/ru/page/160/celevaya_model_2020.htm">Целевая модель 2020</a></li>
+									<li><a href="/ru/page/238/strategiya_razvitiya_personala.htm">Стратегия развития персонала</a></li>
+									<li><a href="http://innovation.ifmo.ru/ru/page/50/" target="_blank">Стратегические партнеры</a></li>
+								</ul>
+								<h4>
+										Достижения
+								</h4>
+								<ul class="list-unstyled">
+									<li><a href="/ru/page/6/cifry_i_fakty.htm">Цифры и факты</a></li>
+									<li><a href="/ru/ratings/pozicii_v_reytingah.htm">Позиции в рейтингах</a></li>
+									<li><a href="/ru/page/240/obschestvennoe_i_professionalnoe_priznanie_universiteta.htm">Общественное и профессиональное признание университета</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-6">
+
+								<h4>
+										Программы развития
+								</h4>
+								<ul class="list-unstyled">
+									<li><a href="/ru/page/239/povyshenie_konkurentosposobnosti_proekt_5-100.htm">Повышение конкурентоспособности (Проект 5-100)</a></li>
+									<li><a href="/ru/page/174/razvitie_nacionalnogo_issledovatelskogo_universiteta_niu.htm">Развитие национального исследовательского университета (НИУ)</a></li>
+									<li><a href="/ru/page/168/programma_razvitiya_deyatelnosti_studencheskih_obedineniy.htm">Программа развития деятельности студенческих объединений</a></li>
+								</ul>
+
+								<h4>
+										Драйверы развития
+								</h4>
+								<ul class="list-unstyled">
+									<li><a href="/ru/page/175/innovacii_i_predprinimatelstvo.htm">Инновации и предпринимательство</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="root">
+					<a href="/ru/page/169/obrazovanie.htm">Образование</a>
+					<div class="main-drop-menu" role="menu">
+						<h4><a href="http://edu.ifmo.ru/" target="_blank"><img class="main-drop-menu__logo" src="/images/menu/small/p201.jpg" alt="Образование"></a>Образование</h4>
+						<p class="main-drop-menu__url"><a href="http://edu.ifmo.ru/" target="_blank">edu.ifmo.ru</a></p>
+						<div class="row">
+							<div class="col-xs-4">
+								<h6>
+										&nbsp;
+								</h6>
+								<ul class="list-unstyled">
+									<li><a href="http://edu.ifmo.ru/specs_list/" target="_blank">Направления и специальности</a></li>
+									<li><a href="http://edu.ifmo.ru/departments/" target="_blank">Научно-образовательные подразделения</a></li>
+									<li><a href="http://lib.ifmo.ru/" target="_blank">Библиотека</a></li>
+									<li><a href="http://edu.ifmo.ru/teachers/" target="_blank">Научно-педагогический состав</a></li>
+									<li><a href="/ru/schedule/raspisanie_zanyatiy.htm">Расписание занятий</a></li>
+									<li><a href="/ru/exam/raspisanie_sessii.htm">Расписание сессии</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-4">
+								<h6>
+										&nbsp;
+								</h6>
+								<ul class="list-unstyled">
+									<li><a href="http://abit.ifmo.ru/" target="_blank">Абитуриенту</a></li>
+									<li><a href="/ru/page/242/magistratura.htm">Магистратура</a></li>
+									<li><a href="http://aspirantura.ifmo.ru/" target="_blank">Аспирантура</a></li>
+									<li><a href="http://de.ifmo.ru/" target="_blank">Дистанционное обучение</a></li>
+									<li><a href="/ru/page/243/dopolnitelnoe_professionalnoe_obrazovanie.htm">Дополнительное профессиональное образование</a></li>
+									<li><a href="http://edu.ifmo.ru/pages/8/" target="_blank">Платные образовательные услуги</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-4">
+								<h6>
+										&nbsp;
+								</h6>
+								<ul class="list-unstyled">
+									<li><a href="http://edu.ifmo.ru/pages/4/" target="_blank">Проектирование образовательных программ</a></li>
+									<li><a href="http://edu.ifmo.ru/pages/3/" target="_blank">Реализация образовательных программ</a></li>
+									<li><a href="http://edu.ifmo.ru/pages/5/" target="_blank">Лицензирование и аккредитация</a></li>
+									<li><a href="http://edu.ifmo.ru/pages/6/" target="_blank">Государственная итоговая аттестация</a></li>
+									<li><a href="/ru/page/198/konkurs_na_zameschenie_vakantnyh_dolzhnostey_pps.htm">Конкурс на замещение вакантных должностей ППС</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="root">
+					<a href="/ru/page/157/nauka.htm">Наука</a>
+					<div class="main-drop-menu" role="menu">
+						<h4><a href="http://research.ifmo.ru/" target="_blank"><img class="main-drop-menu__logo" src="/images/menu/small/p202.jpg" alt="Наука в Университете ИТМО"></a>Наука в Университете ИТМО</h4>
+						<p class="main-drop-menu__url"><a href="http://research.ifmo.ru/" target="_blank">research.ifmo.ru</a></p>
+						<div class="row">
+							<div class="col-xs-4">
+								<h4>
+										Направления научных исследований
+								</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="http://research.ifmo.ru/ru/naprav/1/Fotonika_i_optika.htm" target="_blank">
+												Фотоника и оптика
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/naprav/2/Estestvennye_nauki.htm" target="_blank">
+												Естественные науки
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/naprav/3/Umnye_materialy.htm" target="_blank">
+												«Умные» материалы, наноматериалы и нанотехнологии
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/naprav/4/Intellektualnye_tehnologii_i_robototehnika.htm" target="_blank">
+												Интеллектуальные технологии и робототехника
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/naprav/5/Nauki_o_zhizni_i_zdorove.htm" target="_blank">
+												Науки о жизни и здоровье
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/naprav/6/IT_v_jekonomike_socialnoj_sfere_i_iskusstve.htm" target="_blank">
+												ИТ в экономике, социальной сфере и искусстве
+											</a>
+										</li>
+									</ul>
+								</div>
+							<div class="col-xs-4">
+								<h4>
+										Научная деятельность
+								</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/4/O_nauchnoj_dejatelnosti_universiteta.htm" target="_blank">
+												О научной деятельности
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/13/Itogi_naibolee_znachimyh_NIOKR.htm" target="_blank">
+												Итоги наиболее значимых НИОКР
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/science_rid/Intellektualnaja_sobstvennost.htm" target="_blank">
+												Интеллектуальная собственность
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/15/Publikacii.htm" target="_blank">
+												Публикации
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/8/Podgotovka_kadrov_vysshej_kvalifikacii.htm" target="_blank">
+												Подготовка кадров высшей квалификации
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/16/O_studencheskoj_nauchnoj_dejatelnosti.htm" target="_blank">
+												Научно-исследовательская деятельность молодых ученых
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/11/Nauchnye_izdanija.htm" target="_blank">
+												Научные издания
+											</a>
+										</li>
+									</ul>
+								</div>
+							<div class="col-xs-4">
+								<h4>
+										Научная инфраструктура
+								</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/30/Nauchno-issledovatelskie_instituty_i_centry.htm" target="_blank">
+												Институты и центры
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/62/Dissertacionnye_sovety.htm" target="_blank">
+												Диссертационные советы
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/32/Nauchno-tehnicheskij_sovet.htm" target="_blank">
+												Научно-технический совет
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/33/Sovet_molodyh_uchenyh_i_specialistov.htm" target="_blank">
+												Совет молодых ученых и специалистов
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/34/Administrativnye_podrazdelenija.htm" target="_blank">
+												Административные подразделения
+											</a>
+										</li>
+										<li>
+											<a href="http://research.ifmo.ru/ru/stat/35/Normativnye_i_organizacionnye_dokumenty.htm" target="_blank">
+												Организационные документы
+											</a>
+										</li>
+									</ul>
+								</div>
+						</div>
+					</div>
+				</li>
+				<li class="root">
+					<a href="/ru/page/170/mezhdunarodnaya_deyatelnost.htm">Международная деятельность</a>
+					<div class="main-drop-menu" role="menu">
+						<h4><a href="http://int.ifmo.ru/" target="_blank"><img class="main-drop-menu__logo" src="/images/menu/small/p221.jpg" alt="Международная деятельность"></a>Международная деятельность</h4>
+						<p class="main-drop-menu__url"><a href="http://int.ifmo.ru/" target="_blank">int.ifmo.ru</a></p>
+						<br>
+						<div class="row">
+							<div class="col-xs-4">
+								<ul class="list-unstyled">
+									<li>
+										<a href="/ru/listjep/mezhdunarodnye_obrazovatelnye_programmy.htm">
+											Международные образовательные программы
+										</a>
+									</li>
+									<li>
+										<a href="/ru/mnllist/mezhdunarodnye_nauchnye_podrazdeleniya.htm">
+											Международные научные подразделения
+										</a>
+									</li>
+									<li>
+										<a href="/ru/page/150/uchastie_v_associaciyah.htm">
+											Участие в ассоциациях
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-4">
+								<ul class="list-unstyled">
+									<li>
+										<a href="/ru/page/148/akademicheskie_partnery.htm">
+											Академические партнеры
+										</a>
+									</li>
+									<li>
+										<a href="http://int.ifmo.ru/ru/page/1/obuchenie_dlya_inostrancev.htm" target="_blank">
+											Обучение для иностранцев
+										</a>
+									</li>
+									<li>
+										<a href="http://int.ifmo.ru/ru/charts/cifry_i_fakty.htm" target="_blank">
+											Международная деятельность в цифрах
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-4">
+								<ul class="list-unstyled">
+									<li>
+										<a href="/ru/page/249/mezhdunarodnyy_sovet_universiteta_itmo.htm">
+											Международный совет Университета ИТМО
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="root">
+					<a href="/ru/page/173/studencheskaya_zhizn.htm">Студенческая жизнь</a>
+					<div class="main-drop-menu" role="menu">
+						<div class="row">
+							<div class="col-xs-4">
+								<h4>
+									<a href="/ru/page/121/kampus.htm" style="color:#000;">
+										Кампус
+									</a>
+								</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/page/124/studencheskiy_gorodok.htm">
+												Студенческий городок
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/125/stolovye.htm">
+												Столовые
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/126/medpunkt.htm">
+												Медпункт
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/127/sportivnaya_infrastruktura.htm">
+												Спортивная инфраструктура
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/128/uchebno-sportivno-ozdorovitelnyy_centr_yagodnoe.htm">
+												Учебно-спортивно-оздоровительный центр "Ягодное"
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/129/kovorkingi.htm">
+												Коворкинги
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/130/tvorcheskoe_prostranstvo.htm">
+												Творческое пространство
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/131/mediaklaster.htm">
+												Медиакластер
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/359/psihologicheskaya_podderzhka.htm">
+												Психологическая поддержка
+											</a>
+										</li>
+									</ul>
+								</div>
+							<div class="col-xs-4">
+								<h4>
+									<a href="/ru/page/122/studencheskie_obedineniya.htm" style="color:#000;">
+										Студенческие объединения
+									</a>
+								</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/page/132/sovet_obuchayuschihsya.htm">
+												Совет обучающихся
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/133/tvorcheskie_studii_i_kluby_po_interesam.htm">
+												Творческие студии и клубы по интересам
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/134/studencheskiy_sportivnyy_klub_kronverkskie_barsy.htm">
+												Студенческий спортивный клуб "Кронверкские барсы"
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/135/kvn.htm">
+												КВН
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/136/mediagruppa_megabayt.htm">
+												Медиагруппа «Мегабайт»
+											</a>
+										</li>
+									</ul>
+								</div>
+							<div class="col-xs-4">
+								<h4>
+									<a href="/ru/page/123/pooschrenie_socialnoy_aktivnosti.htm" style="color:#000;">
+										Поощрение социальной активности
+									</a>
+								</h4>
+									<ul class="list-unstyled">
+										<li>
+											<a href="/ru/page/138/letniy_otdyh.htm">
+												Летний отдых
+											</a>
+										</li>
+										<li>
+											<a href="/ru/page/139/forumy_i_lagerya.htm">
+												Форумы и лагеря
+											</a>
+										</li>
+										<li>
+											<a href="http://edu.ifmo.ru/ru/pages/31/stipendii_i_inye_vidy_materialnoy_podderzhki.htm " target="_blank">
+												Стипендии
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+					</div>
+				</li>
+				</ul>
+			</nav> <!-- /b-menu-main -->
+		</div>
+	</div> <!-- /container -->
+</header><!-- /h-header -->
+<script type='text/javascript' src='/js/jquery.min.js'></script>
+
+<link rel="stylesheet" href="/css/_schedule.css">
+
+
+<section class="b-breadcrumbs">
+	<div class="container">
+		<ol class="breadcrumb">
+			<li>
+				<a href="/ru/"><i class="fa fa-fw fa-bank"></i></a>
+			</li>
+			<li>
+				<a href="http://edu.ifmo.ru/" target="_blank">Образование</a>
+			</li>
+			<li>
+				.
+			</li>
+			<li class="active">Расписание занятий</li>
+		</ol>
+	</div>
+</section>
+
+<!--section class="b-page-nav">
+	<div class="container">
+		<ul class="nav nav-pills" role="tablist">
+		</ul>
+	</div>
+</section-->
+
+<div class="container">
+	<div class="page-content">
+<script type="text/javascript">
+	$(function(){
+		$('.napr_list').click(function(){
+			$('.year_list').slideToggle('fast');
+		});
+		$('ul.year_list li').click(function(){
+			var tx = $(this).html();
+			$('.year_list').slideUp('fast');
+			$('.napr_list span').html(tx);
+		});
+	});
+	
+	$(document).ready(function(){
+		$('#lineTabs li').each(function (i) {
+			$('#lineTabs li:eq('+i+')').click(function(){
+				var tab_id=i+1;
+				$('#lineTabs li').removeClass('active');
+				$(this).addClass('active');
+				$('#content > div').stop(false,false).hide();
+				$('#tab'+tab_id).stop(false,false).show();
+				return false;
+			});
+		});
+	});
+</script>
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			$("#body").click(function(event) {
+				if (event.target.id!="small-nav-container" && event.target.id!="small-nav") {
+					if ($(event.target).parents('#small-nav-container').attr('id')!="small-nav-container" || event.target.id=="exit") {
+						$("#small-nav-container").hide();
+						$('#small-nav').removeClass("active");
+						$('#small-nav i').removeClass("fa-caret-up").addClass("fa-caret-down");							
+					}
+				}
+				if (event.target.id!="rasp-group-container" && event.target.id!="rasp-group") {
+					if ($(event.target).parents('#rasp-group-container').attr('id')!="rasp-group-container" || event.target.id=="exit") {
+						$("#rasp-group-container").hide();
+						$('#rasp-group').removeClass("active");
+					}
+				}
+			});	
+				
+			$("#small-nav").click(function(event ) {
+				if ($('#small-nav-container').css('display') == 'none')	{
+					$('#small-nav-container').show();
+					$('#small-nav').addClass("active");
+					$('#small-nav i').removeClass("fa-caret-down").addClass("fa-caret-up");
+				} else {
+					$('#small-nav-container').hide();
+					$('#small-nav').removeClass("active");
+					$('#small-nav i').removeClass("fa-caret-up").addClass("fa-caret-down");
+				}
+			});	
+			/*$("#rasp-group").click(function(event ) {
+				if ($('#rasp-group-container').css('display') == 'none')	{
+					$('#rasp-group-container').show();
+					$('#rasp-group').addClass("active");
+				} else {
+					$('#rasp-group-container').hide();
+					$('#rasp-group').removeClass("active");
+				}
+				return false;
+			});	*/		
+		});
+	</script>
+<section class="content">
+	<!--article class="search">
+		<form name="search_form" method="post" action="/ru/schedule/raspisanie_zanyatiy.htm">
+			<b><big>ПОИСК В РАСПИСАНИИ</big></b>
+			<input name="sch_search" type="text" class="rasp" placeholder="...."> 
+			по
+			<div class="group" style="border:none">
+				<input id="444" value="0" name="vid" type="radio" checked> 
+				<label for="444">по группе</label>
+			</div>
+			<div class="group">
+				<input id="555" value="1" name="vid" type="radio" > 
+				<label for="555">по преподавателю</label>
+			</div>
+			<div class="group">
+				<input id="666" value="2" name="vid" type="radio" > 
+				<label for="666">по аудитории</label>
+			</div>
+			<button name="search_btn" type="submit" class="button"><i class="fa fa-search"></i> Поиск</button>
+		</form>
+	</article-->
+	<article class="search">
+			
+			<!--form name="form_search" action="/ru/schedule_search/schedule.htm" method="post" onSubmit="javascript: return check_form_search();"-->
+				
+								<span>Поиск</span>
+				<input type="text" class="icoSearch" id="sch_search_field" name="sch_search" value="">
+				<button id="sch_btn" type="button" class="small">Искать</button>
+				<div class="search-type">
+					<span style=""><input id="111" type="radio" name="sch_param" value="0" checked><label for="111" style="color:#999; margin:0 10px; font-size:12px;">по номеру группы</label></span>
+					<span style=""><input id="222" type="radio" name="sch_param" value="1"><label for="222" style="color:#999; margin:0 10px; font-size:12px;">по преподавателю</label></span>
+					<span style=""><input id="333" type="radio" name="sch_param" value="2"><label for="333" style="color:#999; margin:0 10px; font-size:12px;">по аудитории</label></span>
+				</div>
+				
+
+
+			<!--/form-->
+	</article>
+	
+	<article class="content_block" style="position:relative;">
+					<ul class="group-list">
+				<li><a href="/ru//schedule/raspisanie_zanyatiy.htm" class="" id="rasp-group"><i class="fa fa-list"></i> К списку групп</a></li>
+			</ul>
+			<div class="page-header schedule-tt"><h1 class="schedule-title">Расписание группы K3140</h1>
+									<h2 class="schedule-week">15 Ноября 2017 г. 12 <strong>Четная</strong> нед.</h2></div>
+										<ul class="rasp_chet_nech">
+											<li>
+												<a href="/ru/schedule/0/K3140/raspisanie_zanyatiy_K3140.htm">всё расписание</a>
+											</li>
+											<li>
+												<a href="/ru/schedule/0/K3140/1/raspisanie_zanyatiy_K3140.htm" class="active">четная неделя</a>
+											</li>
+											<li>
+												<a href="/ru/schedule/0/K3140/2/raspisanie_zanyatiy_K3140.htm">нечетная неделя</a></li>
+										</ul>
+										<ul class="rasp_day">
+											<li id="1day_btn" style="display: none;"><a href="#1day">Понедельник</a></li>
+											<li id="2day_btn" style="display: none;"><a href="#2day">Вторник</a></li>
+											<li id="3day_btn" style="display: none;"><a href="#3day">Среда</a></li>
+											<li id="4day_btn" style="display: none;"><a href="#4day">Четверг</a></li>
+											<li id="5day_btn" style="display: none;"><a href="#5day">Пятница</a></li>
+											<li id="6day_btn" style="display: none;"><a href="#6day">Суббота</a></li>
+										</ul><table class="rasp_tabl" border="0" cellpadding="0" cellspacing="0">
+											<thead>
+												<tr>
+													<td class="day"></td>
+													<td class="time">Время</td>
+													<td class="room">Ауд./Корпус</td>
+													<td class="lesson">Предмет/Преподаватель</td>
+												</tr>
+											</thead>
+										</table><h4 class="rasp_day_mobile">Понедельник</h4>
+										<div class="rasp_tabl_day">
+										<table id="1day" class="rasp_tabl" border="0" cellpadding="0" cellspacing="0">
+											<tbody><tr><th class="day">
+												<script>$("#1day_btn").show();</script>
+												<span>Пн</span></th><td class="time">
+												<span>8:20-9:50</span>
+												<dt style="font-size:14px;"></dt>
+												<dd class="rasp_aud_mobile">3313 ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. Е</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>3313 ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. Е</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Информатика (Лаб) </dd>
+														<!--dt></dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>10:00-11:30</span>
+												<dt style="font-size:14px;"></dt>
+												<dd class="rasp_aud_mobile">2514 ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>2514 ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Математика (Прак) </dd>
+														<!--dt></dt-->
+														<dt><b>Киселев Алексей</b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>11:40-13:10</span>
+												<dt style="font-size:14px;"></dt>
+												<dd class="rasp_aud_mobile"></dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd></dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Иностранный язык (Прак) </dd>
+														<!--dt></dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>13:30-15:00</span>
+												<dt style="font-size:14px;"></dt>
+												<dd class="rasp_aud_mobile">2530 ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>2530 ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Математика (Лек) </dd>
+														<!--dt></dt-->
+														<dt><b>Киселев Алексей</b></dt>
+													</dl>
+												</td>                            
+											</tr><tr></tbody></table></div><h4 class='rasp_day_mobile'>Вторник</h4><div class='rasp_tabl_day'><table id='2day' class='rasp_tabl' border='0' cellpadding='0' cellspacing='0'><tbody><th class="day">
+												<script>$("#2day_btn").show();</script>
+												<span>Вт</span></th><td class="time">
+												<span>8:20-9:50</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile">353 ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>Биржевая линия, д.16, лит.А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>353 ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>Биржевая линия, д.16, лит.А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Программирование (Лаб) </dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b>Сорокин Дмитрий Сергеевич</b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>10:00-11:30</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile">353 ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>Биржевая линия, д.16, лит.А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>353 ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>Биржевая линия, д.16, лит.А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Программирование (Лаб) </dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b>Сорокин Дмитрий Сергеевич</b></dt>
+													</dl>
+												</td>                            
+											</tr><tr></tbody></table></div><h4 class='rasp_day_mobile'>Среда</h4><div class='rasp_tabl_day'><table id='3day' class='rasp_tabl' border='0' cellpadding='0' cellspacing='0'><tbody><th class="today day">
+												<script>$("#3day_btn").show();</script>
+												<span>Ср</span></th><td class="time">
+												<span>10:00-11:30</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile">1122 ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. М</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>1122 ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. М</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Базы данных (Лек) </dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b>Говоров Антон Игоревич</b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="today day"></th><td class="time">
+												<span>11:40-13:10</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile"></dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd></dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>История (Прак) :   расписание смотрите на кафедре  СиГН</dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="today day"></th><td class="time">
+												<span>13:30-15:00</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile"></dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd></dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>История (Прак) :   расписание смотрите на кафедре  СиГН</dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr></tbody></table></div><h4 class='rasp_day_mobile'>Четверг</h4><div class='rasp_tabl_day'><table id='4day' class='rasp_tabl' border='0' cellpadding='0' cellspacing='0'><tbody><th class="day">
+												<script>$("#4day_btn").show();</script>
+												<span>Чт</span></th><td class="time">
+												<span>10:00-11:30</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile">2513 ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>2513 ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Математика (Прак) </dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b>Киселев Алексей</b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>11:40-13:10</span>
+												<dt style="font-size:14px;"></dt>
+												<dd class="rasp_aud_mobile"></dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd></dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Иностранный язык (Прак) </dd>
+														<!--dt></dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr></tbody></table></div><h4 class='rasp_day_mobile'>Пятница</h4><div class='rasp_tabl_day'><table id='5day' class='rasp_tabl' border='0' cellpadding='0' cellspacing='0'><tbody><th class="day">
+												<script>$("#5day_btn").show();</script>
+												<span>Пт</span></th><td class="time">
+												<span>13:30-15:00</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile">431а ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>Кронверкский пр., д.49, лит.А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>431а ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>Кронверкский пр., д.49, лит.А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Дискретная математика (Лек) </dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b><a href="/ru/viewperson/70/lisicyna_lyubov_sergeevna.htm">Лисицына Любовь Сергеевна</a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>15:20-16:50</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile">429 ауд.</dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>Кронверкский пр., д.49, лит.А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd>429 ауд.</dd>
+														<dt><i class="fa fa-map-marker"></i><span>Кронверкский пр., д.49, лит.А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Программирование (Лек) </dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b>Сорокин Дмитрий Сергеевич</b></dt>
+													</dl>
+												</td>                            
+											</tr><tr></tbody></table></div><h4 class='rasp_day_mobile'>Суббота</h4><div class='rasp_tabl_day'><table id='6day' class='rasp_tabl' border='0' cellpadding='0' cellspacing='0'><tbody><th class="day">
+												<script>$("#6day_btn").show();</script>
+												<span>Сб</span></th><td class="time">
+												<span>10:00-11:30</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile"></dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd></dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>История (Лек) :   расписание смотрите на кафедре  СиГН</dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>11:40-13:10</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile"></dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd></dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>История (Прак) :   расписание смотрите на кафедре  СиГН</dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>13:30-15:00</span>
+												<dt style="font-size:14px;">четная неделя</dt>
+												<dd class="rasp_aud_mobile"></dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd></dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>История (Прак) :   расписание смотрите на кафедре  СиГН</dd>
+														<!--dt>четная неделя</dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr><tr><th class="day"></th><td class="time">
+												<span>День</span>
+												<dt style="font-size:14px;"></dt>
+												<dd class="rasp_aud_mobile"></dd>
+												<dt class="rasp_corp_mobile"><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+												
+											</td>
+												<td class="room">
+													<dl>
+														<dd></dd>
+														<dt><i class="fa fa-map-marker"></i><span>ул.Ломоносова, д.9, лит. А</span></dt>
+													</dl>
+												</td>
+												<td class="lesson">
+													<dl>
+														<dd>Физическая культура (элективная дисциплина) (Прак) : <a href="https://isu.ifmo.ru/pls/apex/f?p=2153:15:0::NO">Расп. см.прил. "Физкультура и спорт"</a></dd>
+														<!--dt></dt-->
+														<dt><b><a href="/ru/viewperson/66/.htm"></a></b></dt>
+													</dl>
+												</td>                            
+											</tr></tbody></table></div>	</article>
+</section>
+
+	</div>
+</div>
+<script>
+	$("#sch_btn").click(function(){
+		//alert($('input[name=sch_param]:checked').val());
+		if($("#sch_search_field").val()!="")
+			window.location.href = "/ru/schedule/"+$('input[name=sch_param]:checked').val()+"/"+encodeURI($("#sch_search_field").val())+"/schedule.htm";
+	});
+	$('input[type=text]').on('keyup', function(e) {
+		if (e.which == 13) {
+			if($("#sch_search_field").val()!="")
+				window.location.href = "/ru/schedule/"+$('input[name=sch_param]:checked').val()+"/"+encodeURI($("#sch_search_field").val())+"/schedule.htm";
+
+		}
+	});
+</script><!-- footer -->
+<footer class="b-footer-top">
+    <div class="container">
+        <div class="menu">
+            <a href="#footerQuickLinks" id="button_footerQuickLinks" data-toggle="collapse" aria-expanded="true" aria-controls="footerQuickLinks" class="button-panel-expanded">
+                <svg class="icon icon--info"><use xlink:href="#icon-info-with-circle"></use>
+				</svg>Полезная информация<svg class="icon icon--chevron"><use xlink:href="#icon-chevron-small-down"></use></svg>
+            </a>
+            <span id="footer_floorLinks" class="b-footer-top__floor-links">
+                <a href="/images/floor/1_floor.png" data-gallery="#blueimp-gallery-floor" title="План главного здания Университета">
+					<svg class="icon icon--address"><use xlink:href="#icon-address"></use>
+					</svg>Планы зданий<svg class="icon icon--chevron"><use xlink:href="#icon-chevron-small-right"></use></svg>
+                </a>
+                <a href="/images/floor/2_floor.png" data-gallery="#blueimp-gallery-floor"></a>
+                <a href="/images/floor/3_floor.png" data-gallery="#blueimp-gallery-floor"></a>
+                <a href="/images/floor/4_floor.png" data-gallery="#blueimp-gallery-floor"></a>
+                <a href="/images/floor/5_floor.png" data-gallery="#blueimp-gallery-floor"></a>
+            </span>
+            <a href="/ru/map/karta_korpusov.htm">
+            	<svg class="icon icon--map"><use xlink:href="#icon-map"></use>
+				</svg>Карта корпусов
+            </a>
+        </div>
+        <div id="footerQuickLinks" class="b-footer-top__quick-links collapse in">
+            <div class="row">
+				<div class="col-sm-4">
+					<ul>
+						<li><a href="/sveden/svedeniya_ob_obrazovatelnoy_organizacii.htm">Сведения об образовательной организации</a></li>
+						<li><a href="/ru/viewperson/1/vasilev_vladimir_nikolaevich.htm" target="_blank">Страница ректора</a></li>
+						<li><a href="/ru/department_units/1/instituty_i_fakultety.htm">Институты и факультеты</a></li>
+						<li><a href="http://lib.ifmo.ru/" target="_blank">Библиотека</a></li>
+						<li><a href="/ru/page/77/izdaniya_universiteta_itmo.htm">Издания Университета ИТМО</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<ul>
+						<li><a href="http://abit.ifmo.ru/" target="_blank">Приемная комиссия</a></li>
+						<li><a href="/ru/schedule/raspisanie_zanyatiy.htm">Расписание занятий</a></li>
+						<li><a href="/ru/exam/raspisanie_sessii.htm">Расписание сессии</a></li>
+						<li><a href="http://careers.ifmo.ru/" target="_blank">Трудоустройство студентов</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<ul>
+						<li><a href="/ru/phonebook/telefonnyy_spravochnik.htm">Телефонный справочник</a></li>
+						<li><a href="https://isu.ifmo.ru/" target="_blank">Вход в корпоративную систему</a></li>
+						<li><a href="http://job.ifmo.ru/ru/catalog/" target="_blank">Работа в Университете ИТМО</a></li>
+						<li><a href="http://noc.ifmo.ru/itmo-wi-fi.html" target="_blank">Сеть Wi-fi университета</a></li>
+					</ul>
+				</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div
+     id="blueimp-gallery-floor"
+     data-stretch-images="true"
+     class="blueimp-gallery blueimp-gallery-controls">
+	<div class="slides"></div>
+	<a   class="prev"><i  class="fa fa-angle-left"></i></a>
+	<a   class="next"><i  class="fa fa-angle-right"></i></a>
+	<a   class="close"><i class="fa fa-times"></i></a>
+	<div class="bg"></div>
+	<h3  class="title"><small>Кронверкский пр., д.49, лит.А</small><br>План этажей</h3>
+	<ol  class="indicator"></ol>
+</div>
+
+<footer class="b-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<div class="b-footer__logo"></div>
+				<p>Информация &copy;&nbsp;1993&ndash;2017 Университет&nbsp;ИТМО</p>
+				<p>Разработка &copy;&nbsp;2014
+					<br><a href="/ru/viewunit/61739/departament_informacionnyh_tehnologiy.htm">Департамент информационных технологий</a>
+				</p>
+				<p><a href="/images/pages/79/Pravila_ispolzovanija_informacii.pdf">Правила</a> использования информации в доменной зоне&nbsp;ifmo.ru</p>
+				<p><a href="/file/pages/79/personal_data_policy.pdf">Политика</a> по обработке Персональных данных</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 b-footer__contacts">
+				<h4>Контакты</h4>
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="#" data-toggle="popover" title="Контакты служб">
+							<span class="icon-wrap"><svg class="icon"><use xlink:href="#icon-phone"></use></svg></span>Контакты служб<svg class="icon icon--chevron"><use xlink:href="#icon-chevron-small-right"></use></svg>
+						</a>
+						<section class="b-footer__contacts__js-popover">
+							<h4>Общий отдел</h4>
+							<ul class="list-unstyled">
+								<li><a href="tel:+78122329704">+7 (812) 232–97–04</a></li>
+								<li><a href="mailto:od@mail.ifmo.ru" target="_blank">od@mail.ifmo.ru</a></li>
+							</ul>
+							<h4>Приёмная комиссия</h4>
+							<ul class="list-unstyled">
+								<li><a href="tel:+78124571858">+7 (812) 457–18–58</a></li>
+								<li><a href="mailto:abit@cde.ifmo.ru" target="_blank">abit@cde.ifmo.ru</a></li>
+							</ul>
+							<h4>Пресс-служба</h4>
+							<ul class="list-unstyled">
+								<li><a href="tel:+79219405820">+7 (921) 940-58-20</a></li>
+								<li><a href="mailto:pressa@corp.ifmo.ru" target="_blank">pressa@corp.ifmo.ru</a></li>
+							</ul>
+							<button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-type="common">Задать вопрос</button>
+						</section>
+					</li>
+					<li>
+						<a href="#" data-toggle="modal" data-target="#questionModal_web" data-type="dev">
+							<span class="icon-wrap"><svg class="icon"><use xlink:href="#icon-message"></use></svg></span>Связаться с разработчиками<svg class="icon icon--chevron"><use xlink:href="#icon-chevron-small-right"></use></svg>
+						</a>
+					</li>
+					<li>
+						<a href="/ru/map/1/glavnyy_korpus.htm#map">
+							<span class="icon-wrap"><svg class="icon"><use xlink:href="#icon-geo-fence"></use></svg></span>197101, г. Санкт-Петербург, Кронверкский проспект, д.49 <span class="text-muted">(Вход со стороны Сытнинской&nbsp;ул.)</span>
+						</a>
+					</li>
+					<li><a href="/ru/sitemap/karta_portala.htm"><span class="icon-wrap"><svg class="icon"><use xlink:href="#icon-flow-chart"></use></svg></span>Карта портала</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+				<div class="row">
+					<section class="col-xs-6 col-sm-12 b-footer__social">
+						<h4>Присоединяйтесь</h4>
+						<ul class="nav nav-pills">
+							<li>
+								<a class="social-link -vk" href="http://vk.com/spbifmo" target="_blank">
+									<svg class="icon">
+										<use xlink:href="#icon-vk"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-link -facebook" href="https://www.facebook.com/spbifmoRU" target="_blank">
+									<svg class="icon">
+										<use xlink:href="#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-link -google-plus" href="https://plus.google.com/+IfmoRu/posts" target="_blank">
+									<svg class="icon">
+										<use xlink:href="#icon-google+"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-link -linkedin" href="https://www.linkedin.com/company/the-national-research-university-of-information-technologies-mechanics-and-optics" target="_blank">
+									<svg class="icon">
+										<use xlink:href="#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-link -youtube" href="http://www.youtube.com/spbifmo" target="_blank">
+									<svg class="icon">
+										<use xlink:href="#icon-youtube"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-link -twitter" href="http://twitter.com/spbifmo" target="_blank">
+									<svg class="icon">
+										<use xlink:href="#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-link -instagram" href="https://instagram.com/spbifmo/" target="_blank">
+									<svg class="icon">
+										<use xlink:href="#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+						<script>(function() {
+							var _fbq = window._fbq || (window._fbq = []);
+							if (!_fbq.loaded) {
+							var fbds = document.createElement('script');
+							fbds.async = true;
+							fbds.src = '//connect.facebook.net/en_US/fbds.js';
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(fbds, s);
+							_fbq.loaded = true;
+							}
+							_fbq.push(['addPixelId', '979702578718771']);
+							})();
+							window._fbq = window._fbq || [];
+							window._fbq.push(['track', 'PixelInitialized', {}]);
+						</script>
+						<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=979702578718771&amp;ev=PixelInitialized" /></noscript>
+						<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=FzUn5YF7cf8H9H6lTzn/DCTKTkl2O0wpOaZew6HP83i1/O5SkJaNtwJW9d7h/rHjmnGuZwxQvO8G9qMYMHleSSN2SIDNLzWfUpGqGG1Wc7HSOJm3LH2lc6egCLfna/vKRrpwsZS2GNa6gX/XfU0iTJYk4idwfmlqdkovELx4*z4-';</script>
+					</section>
+					<section class="col-xs-4 col-sm-12 b-footer__apps">
+						<h4><a href="/ru/page/176/mobilnye_prilozheniya.htm">Приложения</a></h4>
+						<ul class="nav nav-pills">
+							<li>
+								<a href="https://itunes.apple.com/ru/app/niu-itmo/id785327058?mt=8" target="_blank" title="Доступно в iTunes">
+									<svg class="icon">
+										<use xlink:href="#icon-app-store"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="http://www.windowsphone.com/s?appid=bf257862-b1a9-43c7-a3ab-d85c69270f9f" target="_blank" title="Скачать из Магазина Windows">
+									<svg class="icon">
+										<use xlink:href="#icon-windows-store"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="https://play.google.com/store/apps/details?id=ru.ifmo.main" target="_blank" title="Загрузите на Google Play">
+									<svg class="icon">
+										<use xlink:href="#icon-google-play"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<footer class="b-footer-bottom">
+	<div class="container">
+		<h4 class="b-footer-bottom__links">
+			<a href="/ru/"><span class="www">www.</span>ifmo.ru</a>
+			<a href="http://xn--80abucjiibhv9a.xn--p1ai/" target="_blank"><span class="www small">Минобрнауки России</span></a>
+		</h4>
+		<a class="b-footer-bottom__slogan" title="Наверх">
+			<span class="b-footer-bottom__slogan__img"></span>
+			<span class="sr-only">IT'sMOre than a<br>UNIVERSITY</span>
+			<i class="fa fa-3x fa-angle-up"></i>
+		</a>
+	</div>
+</footer>
+
+<!-- lightbox -->
+<div
+    id="blueimp-gallery"
+    data-stretch-images="true"
+    class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3  class="title"></h3>
+    <a   class="prev"><i  class="fa fa-angle-left"></i></a>
+    <a   class="next"><i  class="fa fa-angle-right"></i></a>
+    <a   class="close"><i class="fa fa-times"></i></a>
+    <a   class="play-pause"></a>
+    <ol  class="indicator"></ol>
+</div>
+
+<div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="questionModal_title">Задать вопрос</h4>
+			</div>
+			<div class="modal-body">
+				<iframe style="width: 100%; height: 450px;" frameborder="0" hspace="0" scrolling="auto" src="/module/add_to_book.php"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="questionModal_web" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="questionModal_title">Задать вопрос</h4>
+			</div>
+			<div class="modal-body">
+				<iframe style="width: 100%; height: 450px;" frameborder="0" hspace="0" scrolling="auto" src="/module/add_to_book.php?audience_id=11"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="/js/main.min.js?ver=207"></script>
+
+
+<script type="text/javascript">
+    if(document.location.protocol=='http:'){
+        var Tynt=Tynt||[];
+        Tynt.push('aIt1qc2-8r47jPacwqm_6l');
+        (function(){
+            var s=document.createElement('script');
+            s.async="async";
+            s.type="text/javascript";
+            s.src='http://tcr.tynt.com/ti.js';
+            var h=document.getElementsByTagName('script')[0];
+            h.parentNode.insertBefore(s,h);
+        })();
+    }
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter12731218 = new Ya.Metrika({id:12731218,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/12731218" style="position:absolute; left:-9999px;" alt="yandex" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-42911083-1', 'ifmo.ru');
+    ga('send', 'pageview');
+</script>
+<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=ONVDJPl8XMPIPlAoYLwKVKNOvxHm*W2XqvulL3aGBcb78i5GRJnWZE1EtoCxZGSesjDhuwuOT3uOqoGSqsn4fHK3rM41Fw2QtvnaLupJlvK1SBwF8Ubzgz4n0D2Ukpthb*mHWhgf2QeahbjX9XVPKkTVNh/II3gKPCVeOjgkJa4-';</script>
+</body>
+</html>

@@ -48,7 +48,7 @@ def get_network(users_ids, as_edgelist=True):
             else:
                 friends_pop.append(6 + 600 * 0.03)
             print('Прогресс: ' + str(x + 1) + '/' + str(len(users_ids)))
-            time.sleep(0.5)
+#            time.sleep(0.5)
             for y, y_id in enumerate(users_ids):
                 if y_id in friends_ids_x:
                     edges.append((x, y))
@@ -74,7 +74,7 @@ def drow_graph(id_for_graph):
     N = len(vertices)
     color_dict = {2 : "light sky blue", 1 : "pink"}
     visual_style = {}
-#    visual_style["vertex_size"] = 8
+    visual_style["vertex_size"] = 8
     visual_style["vertex_label"] = g.vs["label"]
     visual_style["bbox"] = (1000, 1000)
     visual_style["margin"] = 100
@@ -84,9 +84,8 @@ def drow_graph(id_for_graph):
     visual_style["edge_color"] = "gray"
     visual_style["autocurve"] = True
     g.vs["color"] = [color_dict[gender] for gender in g.vs["gender"]]
-    g.vs["size"] = g.vs["pop"]
     visual_style["layout"] = g.layout_fruchterman_reingold(
-        maxiter=100000,
+        maxiter=300000,
         area=N ** 2,
         repulserad=N ** 2)
 
@@ -94,5 +93,4 @@ def drow_graph(id_for_graph):
     plot(g,str(id_for_graph)+".png", **visual_style)
 
 
-drow_graph(394481525)
-drow_graph(199785621)
+drow_graph(138091639)

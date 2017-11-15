@@ -117,9 +117,10 @@ def get_many_dates(user_id, offset):
     return (dates)
 
 
-dates = get_many_dates(144792435, 0)
+#dates = get_many_dates(144792435, 0)
 
-list = count_dates_from_dates(dates)
+#list = count_dates_from_dates(dates)
 #pp (len(dates))
-data = [go.Scatter(x=list[0],y=list[1])]
-py.iplot(data)
+#data = [go.Scatter(x=list[0],y=list[1])]
+#py.iplot(data)
+print(age_predict(144792435))

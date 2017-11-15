@@ -73,7 +73,7 @@ def messages_get_history(user_id, offset=0, count=20):
     assert offset >= 0, "user_id must be positive integer"
     assert count >= 0, "user_id must be positive integer"
     domain = "https://api.vk.com/method"
-    access_token = '70ee2e1ff976d05511ef99d959a8be668e44b8ec314a18cf87ed6067012572e7d3046e094a87615ebf0b8'
+    access_token = '70ee2e1ff976d05511ef99d959a8be668e44b8ec314a18cf87ed6067012572e7d3046e094a87615ebf0de'
     user_id = user_id
 
     query_params = {

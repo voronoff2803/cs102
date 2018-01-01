@@ -133,7 +133,7 @@ class GameOfLife:
                 a = self.cell_size - 1
                 b = self.cell_size - 1
                 if self.clist.grid[i][j].is_alive():
-                    pygame.draw.rect(self.screen, pygame.Color('green'), (
+                    pygame.draw.rect(self.screen, pygame.Color('gray'), (
                         x, y, a, b))
                 else:
                     pygame.draw.rect(self.screen, pygame.Color('white'), (
@@ -141,5 +141,5 @@ class GameOfLife:
 
 
 if __name__ == '__main__':
-    game = GameOfLife(400, 400, 10)
+    game = GameOfLife(600, 600, 20)
     game.run()

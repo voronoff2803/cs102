@@ -1,4 +1,5 @@
 import requests
+import re
 from bs4 import BeautifulSoup
 
 
@@ -18,7 +19,32 @@ def get_page(url):
         print('Seems like dns lookup failed..')
 
 
+def get_news(url, n_pages):
+    def extract_news(url):
+        response = get_page(url)
+        page = BeautifulSoup(response, 'html5lib')
+        tr = page.body.center.table.findAll('tr')[3]
+        hnusers = tr.td.table.tbody.findAll('a', {'class': 'hnuser'})
+        scores = tr.td.table.tbody.findAll('span', {'class': 'score'})
+        titles = tr.td.table.tbody.findAll('a', {'class': 'storylink'})
+        dict = []
+        for i in range(len(hnusers) - 1):
+            dict.append({'author': hnusers[i].text,
+                         'points': int(re.findall('(\d+)', scores[i].text)[0]),
+                         'title': titles[i].text,
+                         'url': titles[i].get('href')
+                         })
+        return dict
+
+    all_dict = []
+    for current_page in range(n_pages):
+        all_dict.append(extract_news(url))
+        response = get_page(url)
+        page = BeautifulSoup(response, 'html5lib')
+        newurl = page.find('a', {'class': 'morelink'})
+        url = 'https://news.ycombinator.com/' + newurl.get('href')
+    return all_dict
 
 
-print(get_page('http://goosdfd32323423g.com'))
-#def get_news(url, n_pages):
+
+print(get_news('https://news.ycombinator.com/newest',2))

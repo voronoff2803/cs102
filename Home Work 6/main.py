@@ -1,7 +1,39 @@
 import requests
 import re
 from bs4 import BeautifulSoup
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, String, Integer
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from bottle import route, run, template
 
+
+Base = declarative_base()
+engine = create_engine("sqlite:///news.db")
+session = sessionmaker(bind=engine)
+
+class News(Base):
+    __tablename__ = "news"
+    id = Column(Integer, primary_key = True)
+    title = Column(String)
+    author = Column(String)
+    url = Column(String)
+    comments = Column(Integer)
+    points = Column(Integer)
+    label = Column(String)
+
+Base.metadata.create_all(bind=engine)
+
+
+def save_database(dict):
+    s = session()
+    for current_new in dict:
+        news = News(title=current_new['title'],
+                    author=current_new['author'],
+                    url=current_new['url'],
+                    points=current_new['points'])
+        s.add(news)
+    s.commit()
 
 def get_page(url):
     try:
@@ -28,7 +60,7 @@ def get_news(url, n_pages):
         scores = tr.td.table.tbody.findAll('span', {'class': 'score'})
         titles = tr.td.table.tbody.findAll('a', {'class': 'storylink'})
         dict = []
-        for i in range(len(hnusers) - 1):
+        for i in range(len(hnusers)):
             dict.append({'author': hnusers[i].text,
                          'points': int(re.findall('(\d+)', scores[i].text)[0]),
                          'title': titles[i].text,
@@ -38,7 +70,7 @@ def get_news(url, n_pages):
 
     all_dict = []
     for current_page in range(n_pages):
-        all_dict.append(extract_news(url))
+        all_dict += extract_news(url)
         response = get_page(url)
         page = BeautifulSoup(response, 'html5lib')
         newurl = page.find('a', {'class': 'morelink'})
@@ -46,5 +78,14 @@ def get_news(url, n_pages):
     return all_dict
 
 
+@route('/news')
+def news_list():
+    s = session()
+    rows = s.query(News).filter(News.label == None).all()
+    print(rows)
+    return template('news_template', rows=rows)
 
-print(get_news('https://news.ycombinator.com/newest',2))
+dicts = get_news('https://news.ycombinator.com/newest', 2)
+save_database(dicts)
+
+run(host='localhost', port=8080)

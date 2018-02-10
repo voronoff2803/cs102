@@ -1,7 +1,7 @@
 <style>
 body {
   width: 85%;
-  margin: 50px auto;
+  margin: auto;
   color: $text;
   font: 16px/1 'Open Sans', sans-serif;
   background: $bg;
@@ -38,7 +38,6 @@ th {
     color: white;
     padding: 20px 8px;
     text-transform: uppercase;
-    border-radius: 8px;
 }
 
 
@@ -75,17 +74,47 @@ th {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 8px;
 }
 
 .button5:hover {
     background-color: #555555;
     color: white;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
 </style>
-
-
+<head>
+<ul>
+  <li><a href="/news" class="active" >All news</a></li>
+  <li><a href="/recommendations" >Recommendations</a></li>
+</ul>
+</head>
+<body>
 <table class="rwd-table">
     <tr>
         <th>Fresh hacker news</th>
@@ -106,3 +135,4 @@ th {
 </table>
 <br />
 <a href="/update_news" class="button button5">I Wanna more HACKER NEWS!</a>
+</body>

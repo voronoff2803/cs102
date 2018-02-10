@@ -6,6 +6,7 @@ from sqlalchemy import Column, String, Integer
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from bottle import route, run, template, request, redirect
+import bayes
 
 
 Base = declarative_base()
@@ -21,18 +22,24 @@ class News(Base):
     comments = Column(Integer)
     points = Column(Integer)
     label = Column(String)
+    spam = Column(String)
 
 Base.metadata.create_all(bind=engine)
 
 
-def save_database(dict):
+def save_database(dicts):
     s = session()
-    for current_new in dict:
-        news = News(title=current_new['title'],
-                    author=current_new['author'],
-                    url=current_new['url'],
-                    points=current_new['points'])
-        s.add(news)
+    rows = s.query(News).filter(News.label == None).all()
+    bd_labels = []
+    for row in rows:
+        bd_labels.append(row.title)
+    for current_new in dicts:
+        if current_new['title'] not in bd_labels:
+            news = News(title=current_new['title'],
+                        author=current_new['author'],
+                        url=current_new['url'],
+                        points=current_new['points'])
+            s.add(news)
     s.commit()
 
 def get_page(url):
@@ -105,23 +112,24 @@ def update_news():
     #    что каждая новость может быть уникально идентифицирована
     #    по совокупности двух значений: заголовка и автора
     # 3. Сохранить в БД те новости, которых там нет
-    s = session()
-    rows = s.query(News).filter(News.label == None).all()
     dicts = get_news('https://news.ycombinator.com/newest', 1)
-    bd_labels = []
-    for row in rows:
-        bd_labels.append(row.title)
-    for current_new in dicts:
-        if current_new['title'] not in bd_labels:
-            news = News(title=current_new['title'],
-                        author=current_new['author'],
-                        url=current_new['url'],
-                        points=current_new['points'])
-            s.add(news)
-    s.commit()
+    save_database(dicts)
 
     redirect('/news')
-#dicts = get_news('https://news.ycombinator.com/newest', 2)
-#save_database(dicts)
+
+
+@route('/recommendations')
+def recommendations():
+    s = session()
+    rows = s.query(News).filter(News.label == None).all()
+    bayesclassifier = bayes.NaiveBayesClassifier()
+    bayesclassifier.fitwithcollection()
+    for row in rows:
+        row.spam = bayesclassifier.predict(row.title)
+    s.commit()
+    s = session()
+    classified_news = s.query(News).filter(News.spam == 'ham').all()
+    return template('news_template', rows=classified_news)
+
 
 run(host='localhost', port=8080)

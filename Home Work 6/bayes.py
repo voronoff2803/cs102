@@ -35,21 +35,20 @@ class NaiveBayesClassifier:
         score /= len(X_test)
         return score
 
-import csv
-with open("SMSSpamCollection") as f:
-    data = list(csv.reader(f, delimiter="\t"))
-len(data)
-import string
-def clean(s):
-    translator = str.maketrans("", "", string.punctuation)
-    return s.translate(translator)
-X, y = [], []
+    def fitwithcollection(self):
+        import csv
+        with open("SMSSpamCollection") as f:
+            data = list(csv.reader(f, delimiter="\t"))
+        len(data)
+        import string
+        def clean(s):
+            translator = str.maketrans("", "", string.punctuation)
+            return s.translate(translator)
+        X, y = [], []
 
-for target, msg in data:
-        X.append(msg)
-        y.append(target)
-X = [clean(x).lower() for x in X]
-X_train, y_train, X_test, y_test = X[:3900], y[:3900], X[3900:], y[3900:]
-model = NaiveBayesClassifier()
-model.fit(X_train, y_train)
-print(model.score(X_test, y_test))
+        for target, msg in data:
+            X.append(msg)
+            y.append(target)
+        X = [clean(x).lower() for x in X]
+        X_train, y_train, X_test, y_test = X[:3900], y[:3900], X[3900:], y[3900:]
+        self.fit(X_train, y_train)

@@ -148,15 +148,13 @@ A {
     color: gray;
    }
 A:hover {
-    color: black;
+    color: black; /* Ссылка красного цвета */
    }
 </style>
 <head>
 <ul>
-  <li><a href="/news" class="active" >All news</a></li>
-  <li><a href="/recommendations" >Recommendations</a></li>
-  <li><a href="/update_news" >Add some news</a></li>
-  <li><a href="/getrecommendations" >Get recommendations</a></li>
+  <li><a href="/news" >All news</a></li>
+  <li><a href="/recommendations" class="active" >Recommendations</a></li>
 </ul>
 </head>
 <body>
@@ -171,8 +169,6 @@ A:hover {
                 <div class="swatch_details">
                     <div  class="swatch_value"><a class="A" href="{{row.url}}">{{row.title}}</a></div>
                     <div class="swatch_name">
-                    <a class="btn" href="/add_label/?label=good&id={{row.id}}"><i class="fas fa-heart"></i></a>
-                    <a class="btnr" href="/add_label/?label=never&id={{row.id}}"><i class="fas fa-trash-alt"></i></a>
                     </div>
                 </div>
             </div>

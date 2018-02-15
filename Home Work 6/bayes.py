@@ -1,7 +1,5 @@
 from __future__ import division
-from collections import defaultdict
-from math import log
-import csv
+import math
 
 
 class NaiveBayesClassifier:
@@ -9,23 +7,41 @@ class NaiveBayesClassifier:
         self.alpha = alpha
 
     def fit(self, X, y):
-        classes, freq = defaultdict(lambda: 0), defaultdict(lambda: 0)
-        for feats, label in zip(X, y):
-            classes[label] += 1  # count classes frequencies
+        classes, freq = {}, {}
+        allwords = []
+        for words in X:
+            for word in words.split(" "):
+                allwords.append(word)
+                for label in y:
+                    classes[label] = 0
+                    freq[(label,word)] = self.alpha
+        for feats, label in zip(X, y):  # Нужно разобраться вычислять вероятность по словам или по предложениям. Мне кажется по словам лучше
             for feat in feats.split(" "):
-                freq[label, feat] += 1  # count features frequencies
-
-        for label, feat in freq:  # normalize features frequencies
-            freq[label, feat] /= classes[label]
-        for c in classes:  # normalize classes frequencies
-            classes[c] /= len(y)
-        self.classifier = classes, freq  # return P(C) and P(O|C)
+                classes[label] += 1
+                freq[(label, feat)] += 1
+        count = len(set(allwords))
+        for feat, item in freq.items():
+            freq[feat] = item / (classes[feat[0]] + count)
+        self.classifier = classes, freq
 
     def predict(self, X):
+        pred = {}
         classes, prob = self.classifier
-        return min(classes.keys(),  # calculate argmin(-log(C|O))
-                   key=lambda cl: -log(classes[cl]) + \
-                                  sum(-log(prob.get((cl, feat), 10 ** (-7))) for feat in X))
+        for key in classes.keys():
+            pred[key] = 0
+        for key in classes.keys():
+            for word in X.split(" "):
+                try:
+                    pred[key] += math.log(prob[(key, word)])
+                except:
+                    pass
+        b = []
+        for i in pred.keys():
+            b.append(pred[i])
+        for i in pred.keys():
+            if pred[i] == max(b):
+                return i
+        return None
 
     def score(self, X_test, y_test):
         score = 0
@@ -34,21 +50,3 @@ class NaiveBayesClassifier:
                 score += 1
         score /= len(X_test)
         return score
-
-    def fitwithcollection(self):
-        import csv
-        with open("SMSSpamCollection") as f:
-            data = list(csv.reader(f, delimiter="\t"))
-        len(data)
-        import string
-        def clean(s):
-            translator = str.maketrans("", "", string.punctuation)
-            return s.translate(translator)
-        X, y = [], []
-
-        for target, msg in data:
-            X.append(msg)
-            y.append(target)
-        X = [clean(x).lower() for x in X]
-        X_train, y_train, X_test, y_test = X[:3900], y[:3900], X[3900:], y[3900:]
-        self.fit(X_train, y_train)

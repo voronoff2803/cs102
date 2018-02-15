@@ -1,5 +1,5 @@
 import requests
-import re
+import pprint
 from bs4 import BeautifulSoup
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer
@@ -13,34 +13,39 @@ Base = declarative_base()
 engine = create_engine("sqlite:///news.db")
 session = sessionmaker(bind=engine)
 
+
 class News(Base):
     __tablename__ = "news"
     id = Column(Integer, primary_key = True)
     title = Column(String)
+    text = Column(String)
     author = Column(String)
     url = Column(String)
+    img = Column(String)
     comments = Column(Integer)
-    points = Column(Integer)
     label = Column(String)
-    spam = Column(String)
 
 Base.metadata.create_all(bind=engine)
 
 
 def save_database(dicts):
     s = session()
-    rows = s.query(News).filter(News.label == None).all()
+    rows = s.query(News).filter().all()
     bd_labels = []
     for row in rows:
         bd_labels.append(row.title)
+    print(bd_labels)
     for current_new in dicts:
         if current_new['title'] not in bd_labels:
             news = News(title=current_new['title'],
+                        text=current_new['text'],
                         author=current_new['author'],
                         url=current_new['url'],
-                        points=current_new['points'])
+                        img = current_new['img'],
+                        comments=current_new['comments'])
             s.add(news)
     s.commit()
+
 
 def get_page(url):
     try:
@@ -59,30 +64,36 @@ def get_page(url):
 
 
 def get_news(url, n_pages):
+
     def extract_news(url):
         response = get_page(url)
         page = BeautifulSoup(response, 'html5lib')
-        tr = page.body.center.table.findAll('tr')[3]
-        hnusers = tr.td.table.tbody.findAll('a', {'class': 'hnuser'})
-        scores = tr.td.table.tbody.findAll('span', {'class': 'score'})
-        titles = tr.td.table.tbody.findAll('a', {'class': 'storylink'})
-        dict = []
-        for i in range(len(hnusers)):
-            dict.append({'author': hnusers[i].text,
-                         'points': int(re.findall('(\d+)', scores[i].text)[0]),
-                         'title': titles[i].text,
-                         'url': titles[i].get('href')
-                         })
-        return dict
+        posts = page.find_all('article', {'class': 'post'})
+        postsdict = []
+        for post in set(posts):
+            title = post.find_next('span', {'itemprop': 'name'})
+            text = post.find_next('p', {'style': 'text-align: justify;'})
+            author = post.find_next('span', {'class': 'autor'})
+            url = post.find_next('a', {'class': 'btn-more'})
+            comments = post.find_next('a', {'class': 'v-count'})
+            img = post.find_next('img', {'itemprop': 'image'})
+            try:
+                postsdict.append({'title': title.text,
+                                  'text': text.text,
+                                  'author': author.text,
+                                  'url': url['href'],
+                                  'img': img['src'],
+                                  'comments': comments.text
+                                 })
+            except:
+                pass
+        return postsdict
 
-    all_dict = []
+    postsdict = []
     for current_page in range(n_pages):
-        all_dict += extract_news(url)
-        response = get_page(url)
-        page = BeautifulSoup(response, 'html5lib')
-        newurl = page.find('a', {'class': 'morelink'})
-        url = 'https://news.ycombinator.com/' + newurl.get('href')
-    return all_dict
+        postsdict += extract_news(url + str(current_page + 1))
+
+    return postsdict
 
 
 @route('/news')
@@ -107,29 +118,41 @@ def add_label(label="maybe",id=1):
 
 @route('/update_news')
 def update_news():
-    # 1. Получить данные с новостного сайта
-    # 2. Проверить, каких новостей еще нет в БД. Будем считать,
-    #    что каждая новость может быть уникально идентифицирована
-    #    по совокупности двух значений: заголовка и автора
-    # 3. Сохранить в БД те новости, которых там нет
-    dicts = get_news('https://news.ycombinator.com/newest', 1)
+    dicts = get_news('http://4pda.ru/page/', 3)
     save_database(dicts)
+    redirect('/news')
 
+
+@route('/')
+def goto_news():
     redirect('/news')
 
 
 @route('/recommendations')
 def recommendations():
     s = session()
-    rows = s.query(News).filter(News.label == None).all()
-    bayesclassifier = bayes.NaiveBayesClassifier()
-    bayesclassifier.fitwithcollection()
+    classified_news = s.query(News).filter(News.label == 'good').all()
+    return template('news_template2', rows=classified_news)
+
+@route('/getrecommendations')
+def get_recommendations():
+    s = session()
+    rows = s.query(News).filter(News.label != None).all()
+    x = []
+    y = []
     for row in rows:
-        row.spam = bayesclassifier.predict(row.title)
+        x.append(row.title)
+        y.append(row.label)
+    bayesclassifier = bayes.NaiveBayesClassifier()
+    bayesclassifier.fit(x, y)
     s.commit()
     s = session()
-    classified_news = s.query(News).filter(News.spam == 'ham').all()
-    return template('news_template', rows=classified_news)
-
-
+    rows = s.query(News).filter(News.label == None).all()
+    for row in rows:
+        try:
+            row.label = bayesclassifier.predict(row.title)
+        except:
+            pass
+    s.commit()
+    redirect('/recommendations')
 run(host='localhost', port=8080)

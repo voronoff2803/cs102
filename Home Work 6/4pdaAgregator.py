@@ -30,11 +30,15 @@ Base.metadata.create_all(bind=engine)
 
 def save_database(dicts):
     s = session()
-    rows = s.query(News).filter().all()
+    titles = s.query(News.title).filter(News.title.in_([d['title'] for d in dicts])).all()
+
+    #print(titles)
     bd_labels = []
-    for row in rows:
-        bd_labels.append(row.title)
+    # SELCET * FROM new WHERE title IN ()
+    for title in titles:
+        bd_labels.append(title[0])
     print(bd_labels)
+
     for current_new in dicts:
         if current_new['title'] not in bd_labels:
             news = News(title=current_new['title'],
